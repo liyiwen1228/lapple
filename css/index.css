@@ -1,0 +1,646 @@
+/*
+* @Author: Administrator
+* @Date:   2018-05-26 08:35:40
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-05-27 17:49:33
+*/
+@import url(base.css);
+/* header 开始 */
+header{
+	width: 100%;
+	height: 40px;
+	background: #444;
+}
+header main{
+	/* width: 976px; */
+	height: 100%;
+	/* background: red; */
+	margin: 0 auto;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+header main .adv{
+	font-size:10px ;
+	color:#a8a8aa ;
+}
+/* header 结束 */
+
+/* nav 开始 */
+nav{
+	width: 100%;
+	height: 44px;
+	background: #333;
+}
+nav ul{
+	margin: 0 auto;
+	/* width:976px; */
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+nav ul li a{
+	font-size: 12px;
+	color: #ccc;
+}
+nav ul li a:hover{
+	color: #fff;
+}
+nav ul li:first-child>a{
+	font-size: 16px;
+	color: #fff;
+}
+/* nav 结束 */
+/* list 开始 */
+.list{
+	width: 100%;
+	height: auto;
+}
+.list>li{
+	width: 100%;
+	/* height: 692px; */
+	margin-bottom: 12px;
+	background: #ccc;
+}
+.list .iPhone_X{
+	background: #fff;
+}
+.list>li>a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	position: relative;
+}
+.list>li>a>h1{
+	text-align: center;
+	color: #111;
+}
+.list>li>a>h2{
+	text-align: center;
+	color: #111;
+}
+.list>li>a .iPhoneX_img{
+	position: absolute;
+	left: 0;
+	right: 0;	
+	margin-right: auto;
+	margin-left: auto;
+}
+/* .list .iPhone8{
+	background: #b00e23;
+	overflow: hidden;
+}
+.list .iPhone8>span{
+	line-height: 33px;
+	text-align: center;
+	color: rgba(255, 255, 255, 0.9);
+	border-radius: 4px;
+	display: block;
+	width: 143px;
+	height: 33px;
+	border: 1px solid #FFF;
+	margin: 47px auto 0;
+} */
+/* list 结束 */
+/* unit 开始 */
+.unit,.unit ul{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+.unit ul li{
+	margin-bottom: 12px;
+	float: left;
+	background: #fafafa;
+	box-sizing: border-box;
+}
+.unit ul li:nth-of-type(2n){
+	border-left: none;
+}
+.unit ul li>a{
+		display: block;
+		width: 100%;
+		height: 100%;
+		overflow: hidden;
+		position: relative;
+}
+.unit ul li>a>h1{
+	color:#111 ;
+	text-align: center;
+}
+.unit ul li>a>h2{
+	text-align: center;
+	color: #111;
+}
+.unit ul li>a .pro_img{
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin-left: auto;
+	margin-right: auto;
+}
+/* unit 结束 */
+.bg{
+	width: 100%;
+	height: auto;
+	background: #f2f2f2;
+}
+/* links 开始 */
+.links{
+	width: 100%;
+	height: auto;
+	background: #f2f2f2;
+	margin-bottom: 21px;
+}
+.links .link_big{
+	/* width: 100%; */
+	height: auto;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	box-sizing: border-box;
+}
+.links .link_big li{
+	width: 20%;
+	/* height: 400px; */
+	/* background: #ccc; */
+}
+.links .link_big>li>dl>dt{
+	font-weight: bold;
+	/* margin-top: 35px; */
+	line-height: 24px;
+	font-size: 12px;
+	color: #333;
+}
+.links .link_big>li>dl>dt:nth-of-type(2){
+	margin-top: 15px;
+}
+.links .link_big>li>dl>dd{
+	font-size: 11px;
+	color: #555;
+	line-height: 24px;
+}
+.links .link_big>li>dl>dd:hover{
+	text-decoration: underline;
+}
+.links_sm{
+	width: 100%;
+	height:auto;
+	background:#f2f2f2;
+	margin-bottom: 9px;
+}
+.link_sm{
+	width: 100%;
+	height: auto;
+	padding: 0 34px 0 17px;
+	box-sizing: border-box;
+}
+.link_sm>li{
+	width: 100%;
+	height: 37px;
+	line-height: 37px;
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 1px solid #d6d6d6;
+}
+.link_sm>li>span{
+	font-size: 10px;
+	display: block;
+	color: #000;
+}
+.link_sm>li>i{
+	font-size: 12px;
+	display: block;
+}
+
+/* links 结束 */
+/* footer 开始 */
+footer{
+	width: 100%;
+	height: 200px;
+	/* background: red; */
+}
+.footer_main{
+	/* width: 976px; */
+	box-sizing: border-box;
+	height: 100%;
+	margin:0 auto;
+}
+.footer_main .h_top{
+	width: 100%;
+	height: 31px;
+	/* line-height: 31px; */
+	font-size:10px ;
+	color:#888 ;
+	/* border-bottom: 1px solid #d6d6d6; */
+}
+.footer_main .h_top>a{
+	color: #0099da;
+	
+}
+.footer_main .h_top>a:hover{
+	text-decoration: underline;
+}
+.footer_main .copyright{
+	font-size: 10px;
+	width: 100%;
+	/* height: 66px; */
+	
+}
+.footer_main .copyright>p{
+	/* display: inline-block; */
+	/* height: 33px; */
+	margin-right: 23px;
+	/* line-height: 33px; */
+	color: #888;
+}
+.footer_main .copyright>ul{
+	/* display: inline-block; */
+	/* height: 33px; */
+	/* line-height: 33px; */
+}
+.footer_main .copyright>ul>li{
+	display: inline-block;
+	/* padding: 0 10px; */
+}
+.footer_main .copyright>ul>li>a{
+	color:#555;
+}
+.footer_main .pro{
+	font-size: 10px;
+	color: #999;
+	height: 14px;
+	line-height: 14px;
+}
+/* footer 结束 */
+
+
+
+/* 阈值 > 1024px  976px */
+
+@media screen and (min-width:1024px){
+	header main{
+		width: 976px;
+	}
+	nav ul{
+		width: 976px;
+	}
+	.max{
+		display: block;
+	}
+	.min{
+		display: none;
+	}
+	.list>li{
+		height: 580px;
+	}
+	.list>li>a>h1{
+		margin-top: 85px;
+		font-size: 40px;
+		line-height: 64px;
+	
+	}
+	.list>li>a>h2{
+		line-height: 50px;
+		font-size: 22px;
+
+	}
+	.list>li>a .iPhoneX_img{
+		bottom: 112px;
+		width: 909px;
+		height: 194px;
+		background: url(../img/iphone_x_large.jpg)no-repeat center/cover;
+	}
+	.unit ul li{
+		width: 50%;
+		height: 580px;
+		border-left: 12px solid #fff;
+		border-right: 12px solid #fff;
+	}
+	.unit ul li>a>h1{
+		margin-top:62px ;
+		font-size: 30px;
+		line-height: 46px;
+	}
+	.unit ul li>a>h2{
+		font-size: 18px;
+		line-height: 33px;
+	}
+	.unit ul li>a .pro_img{
+		width: 516px;
+		height: 430px;
+		background: url(../img/macbook_pro_large.jpg)no-repeat center/cover;
+	}
+	
+	.links .link_big{
+		width: 976px;
+	}
+	.links .link_big>li>dl>dt{
+		margin-top: 35px;
+	}
+	.links_sm{
+		display: none;
+	}
+	.links{
+		display: block;
+	}
+	.footer_main{
+		width: 976px;
+	}
+	.footer_main .h_top{
+		line-height: 31px;
+		border-bottom: 1px solid #d6d6d6;
+	}
+	.footer_main .copyright>p{
+		display: inline-block;
+	}
+	.footer_main .copyright>ul{
+		display: inline-block;
+	}
+	.footer_main .copyright>ul>li{
+		padding: 0 10px;
+	}
+	.footer_main .copyright{
+		height: 33px;
+	
+	}
+	.footer_main .copyright>p{
+		height: 33px;
+		line-height: 33px;
+	}
+	.footer_main .copyright>ul{
+		height: 33px;
+		line-height: 33px;
+	}
+
+}
+/* 阈值 < 1024px   */
+@media screen and (max-width: 1024px){
+	header main{
+		padding-right: 22px;
+	}
+	nav ul{
+		padding-right: 22px;
+		padding-left: 22px;
+	}
+	.max{
+		display: block;
+	}
+	.min{
+		display: none;
+	}
+	.list>li{
+		height: 580px;
+	}
+	.list>li>a>h1{
+		margin-top: 85px;
+		font-size: 40px;
+		line-height: 64px;
+	
+	}
+	.list>li>a>h2{
+		line-height: 50px;
+		font-size: 22px;
+
+	}
+	.list>li>a .iPhoneX_img{
+		bottom: 112px;
+		width: 909px;
+		height: 194px;
+		background: url(../img/iphone_x_large.jpg)no-repeat center/cover;
+	}
+	.unit ul li{
+		width: 50%;
+		height: 580px;
+		border-left: 12px solid #fff;
+		border-right: 12px solid #fff;
+	}
+	.unit ul li>a>h1{
+		margin-top:62px ;
+		font-size: 30px;
+		line-height: 46px;
+	}
+	.unit ul li>a>h2{
+		font-size: 18px;
+		line-height: 33px;
+	}
+	.unit ul li>a .pro_img{
+		width: 516px;
+		height: 430px;
+		background: url(../img/macbook_pro_large.jpg)no-repeat center/cover;
+	}
+	.links .link_big{
+		padding: 0 22px;
+	}
+	.links .link_big>li>dl>dt{
+		margin-top: 35px;
+	}
+	.links_sm{
+		display: none;
+	}
+	.links{
+		display: block;
+	}
+	.footer_main{
+		padding: 0 22px;
+	}
+	.footer_main .h_top{
+		line-height: 31px;
+		border-bottom: 1px solid #d6d6d6;
+	}
+	.footer_main .copyright>p{
+		display: inline-block;
+	}
+	.footer_main .copyright>ul{
+		display: inline-block;
+	}
+	.footer_main .copyright>ul>li{
+		padding: 0 10px;
+	}
+	.footer_main .copyright{
+		height: 33px;
+	
+	}
+	.footer_main .copyright>p{
+		height: 33px;
+		line-height: 33px;
+	}
+	.footer_main .copyright>ul{
+		height: 33px;
+		line-height: 33px;
+	}
+}
+
+
+/* 阈值 < 992px */
+@media screen and (max-width:992px){
+	.list>li{
+		height: 569px;
+	}
+	.list>li>a>h1{
+		margin-top: 99px;
+		font-size: 32px;
+		line-height: 50px;
+	
+	}
+	.list>li>a>h2{
+		line-height: 39px;
+		font-size: 19px;
+
+	}
+	.list>li>a .iPhoneX_img{
+		bottom: 156px;
+		width: 704px;
+		height: 148px;
+		background: url(../img/iphone_x_medium.jpg)no-repeat center/cover;
+	}
+	.unit ul li{
+		width: 50%;
+		height: 490px;
+		border-left: 12px solid #fff;
+		border-right: 12px solid #fff;
+	}
+	.unit ul li>a>h1{
+		margin-top:42px ;
+		font-size: 24px;
+		line-height: 36px;
+	}
+	.unit ul li>a>h2{
+		font-size: 16px;
+		line-height: 28px;
+	}
+	.unit ul li>a .pro_img{
+		width: 350px;
+		height: 380px;
+		background: url(../img/macbook_pro_medium.jpg)no-repeat center/cover;
+	}
+	.links .link_big>li>dl>dt{
+		margin-top: 16px;
+	}
+	.links_sm{
+		display: none;
+	}
+	.links{
+		display: block;
+	}
+	.footer_main{
+		padding: 0 22px;
+	}
+	.footer_main .h_top{
+		line-height: 31px;
+		border-bottom: 1px solid #d6d6d6;
+	}
+	.footer_main .copyright>p{
+		display: inline-block;
+	}
+	.footer_main .copyright>ul{
+		display: inline-block;
+	}
+	.footer_main .copyright>ul>li{
+		padding: 0 10px;
+	}
+	.footer_main .copyright{
+		height: 33px;
+	
+	}
+	.footer_main .copyright>p{
+		height: 33px;
+		line-height: 33px;
+	}
+	.footer_main .copyright>ul{
+		height: 33px;
+		line-height: 33px;
+	}
+
+}
+/* 阈值 < 768 */
+@media screen and (max-width: 768px){
+	.max{
+		display: none;
+	}
+	.min{
+		display: block;
+	}
+	.list>li{
+		height: 500px;
+	}
+	.list>li>a>h1{
+		margin-top: 39px;
+		font-size: 23px;
+		line-height: 37px;
+	
+	}
+	.list>li>a>h2{
+		line-height: 31px;
+		font-size: 15px;
+
+	}
+	.list>li>a .iPhoneX_img{
+		bottom: 50px;
+		width: 167px;
+		height: 333px;
+		background: url(../img/iphone_x_small.jpg)no-repeat center/cover;
+	}
+	.unit ul li{
+		width: 100%;
+		height: 500px;
+		
+		border: none;
+	}
+	.unit ul li>a>h1{
+		margin-top:37px ;
+		font-size: 24px;
+		line-height: 36px;
+		z-index: 999;
+	}
+	.unit ul li>a>h2{
+		font-size: 16px;
+		line-height: 28px;
+		z-index: 999;
+	}
+	.unit ul li>a .pro_img{
+		overflow: visible;
+		width: 320px;
+		height: 460px;
+		background: url(../img/macbook_pro_small.png)no-repeat center/cover;
+		
+	}
+	.links_sm{
+		display: block;
+	}
+	.links{
+		display: none;
+	}
+	.footer_main .h_top{
+		line-height: 15px;
+		border-bottom:none;
+	}
+	.footer_main .copyright>p{
+		display:block;
+	}
+	.footer_main .copyright>ul{
+		display:block;
+	}
+	.footer_main .copyright>ul>li:first-child{
+		padding-left: 0;
+	}
+	.footer_main .copyright{
+		height: 40px;
+		margin-bottom: 5px;
+	
+	}
+	.footer_main .copyright>p{
+		height: 19px;
+		line-height: 19px;
+	}
+	.footer_main .copyright>ul{
+		height: 19px;
+		line-height: 19px;
+	}
+}
+
+
+
